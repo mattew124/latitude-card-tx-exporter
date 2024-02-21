@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Latitude Finance Credit Card Transaction Exporter
 // @namespace    https://github.com/shuwada/latitude-card-tx-exporter
-// @version      0.1
+// @version      0.2
 // @description  Download Credit Card Transaction History from Latitude Finance
-// @author       Hiroshi Wada
+// @author       Hiroshi Wada and Matthew White
 // @match        https://*.latitudefinancial.com.au/*
 // @grant        none
 // ==/UserScript==
@@ -12,7 +12,7 @@
  * Adding a link to download posted transactions.
  */
 function addPostedTxDownloadLink() {
-    const postedTxs = document.querySelector('div[name="postedTransactions"]')
+    const postedTxs = document.querySelector('div[name="transaction-list"]')
 
     if (postedTxs != undefined) {
         // if there is no posted transactions, show "No Posted Transactions"
