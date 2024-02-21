@@ -1,6 +1,6 @@
 # Latitude Finance Credit Card Transaction Exporter
 
-Latitude Finance offers good credit card products but their online system does not support data export. This userscript adds a link to download posted transactions as a CVS file.
+Latitude Finance offers good credit card products but their online system does not support data export. This userscript adds a link to download posted transactions as a CSV file.
 
 ## Supported Credit Card Web Sites
 
